@@ -1,0 +1,123 @@
+/***************************************************************************************/
+/*                      ClickBank Advanced Exit Offer Sample CSS                       */
+/***************************************************************************************/
+
+/*Below are the 3 primary IDs used on the Exit Offer*/
+
+/*This id directly modifies the 'Click Here' button itself*/
+#modal-button-ql-editor{
+    /*This example sets the base properties of the button and animation timing, and utilizes pseudo-classes at the end of this CSS file */
+    background:crimson;
+    border:none;
+    border-radius: 25px;
+    color:#fff;
+    cursor: crosshair;
+    font-size:1.8em;
+    height:80px;
+    outline:none;
+    padding:0 2em;
+    position:relative;
+    transition:800ms ease all;
+    width:100%;
+}   
+/*This id direclty modifies the Headline Text content '*/
+#modal-header-ql-editor{
+    color:burlywood;
+
+}
+/*This id directly modifies the details of the offer text*/
+#modal-body-ql-editor{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.8em;
+    color:rgb(31, 4, 131);
+}
+
+/***************************************************************************************/
+/*Supporting CSS styles and pseudo-classes to facilitate animation and colors on events*/
+/***************************************************************************************/
+#modal-button-ql-editor:hover{
+    background:#fff;
+    color:rgb(31, 4, 131);
+    border: 2px dashed;
+}
+
+/*Timer Stylesheet*/
+.timer-heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.8em;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    margin-left: 500px;
+}
+#demo{
+    background-color: #140C2C;
+    width: 280px;
+    height: 90px;
+    padding: 10px;
+    padding-top: 25px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.8em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 500px;
+    position: absolute;
+    font-size: 50px;
+    z-index: -1;
+}
+#box{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+.d{
+margin-top: 100px;
+margin-left: 500px;
+padding-top: 175px;
+color: rgb(255, 255, 255);
+padding-left: 60px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 400;
+font-size: 25px;
+}
+.f{
+margin-top: -68px;
+margin-left: 580px;
+padding-top: 15px;
+color: rgb(255, 255, 255);
+padding-left: 90px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 400;
+font-size: 25px;
+z-index: 0;
+}
+.boxa{
+    width: 40px;
+    height: 68px;
+    background-color: black;
+    margin-top: -78px;
+    margin-left: 460px;
+}
+.boxb{
+    width: 40px;
+    height: 68px;
+    background-color: black;
+    margin-top: -68px;
+    margin-left: 800px;
+}
+.linea{
+width: 40px;
+height: 5px;
+background-color: blueviolet;
+margin-left: 460px;
+}
+.lineb{
+    width: 40px;
+    height: 5px;
+    background-color: blueviolet;
+    margin-top: -5px;
+    margin-left: 800px;
+}
